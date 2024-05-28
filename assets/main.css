@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box !important;
+  font-family: Montserrat;
+}
+html {
+  background-color: transparent !important;
+  overflow: visible !important;
+}
+.canvas {
+  /* height: 600px;
+  width: 600px;*/
+  position: relative;
+}
+.canvas canvas {
+  height: 100% !important;
+  width: 100% !important;
+  display: block !important;
+  /* position: absolute !important;
+  object-fit: contain; */
+}
+.controls {
+  position: absolute;
+  background-color: #fff;
+  top: 50px;
+  right: 0%;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  z-index: 22;
+  width: 380px;
+}
