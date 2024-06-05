@@ -10,13 +10,16 @@ html {
   /* height: 600px;
   width: 600px;*/
   position: relative;
+  margin: 0px 0 0 0;
+  height: 600px;
+  width: 600px;
 }
 .canvas canvas {
-  height: 100% !important;
-  width: 100% !important;
-  display: block !important;
-  /* position: absolute !important;
-  object-fit: contain; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* object-fit: contain; */
 }
 .controls {
   position: absolute;
@@ -28,4 +31,11 @@ html {
   border: 1px solid #e2e2e2;
   z-index: 22;
   width: 380px;
+}
+.navbar {
+  z-index: 222;
+}
+.navbar a {
+  margin: 0 10px 0 0px;
+  color: #000;
 }
