@@ -11,8 +11,8 @@ html {
   width: 600px;*/
   position: relative;
   margin: 0px 0 0 0;
-  height: 600px;
-  width: 600px;
+  height: 800px;
+  width: 100%;
 }
 .canvas canvas {
   top: 0;
@@ -38,4 +38,10 @@ html {
 .navbar a {
   margin: 0 10px 0 0px;
   color: #000;
+}
+.form-hard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 100px;
 }

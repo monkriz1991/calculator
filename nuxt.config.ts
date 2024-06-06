@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@tresjs/nuxt"],
+  modules: ["@tresjs/nuxt", "@element-plus/nuxt"],
+
   build: {
     transpile: ["@tresjs/cientos"],
   },

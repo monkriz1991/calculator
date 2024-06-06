@@ -105,7 +105,7 @@ onMounted(() => {
           <!-- Плоскость -->
           <TresMesh :rotation="[-Math.PI / 2, 0, 0]" :position="[0, 0, 0]">
             <TresPlaneGeometry :args="[10, 10]" />
-            <TresMeshStandardMaterial transparent="true" opacity="0" />
+            <TresMeshStandardMaterial color="blue" />
           </TresMesh>
 
           <!-- Колонны -->
